@@ -108,4 +108,75 @@ h1 {
 
 footer {
     text-align: center;
+    padding-bottom: 2%;
+}
+
+/* MEDIA QUERIES HERE 
+    
+    TABLET */
+
+@media (max-width: 800px) {
+    .container {
+        width: 95%;
+    }
+
+    nav {
+        flex-direction: column-reverse;
+        padding-bottom: 0;
+    }
+
+    h1 {
+        padding: 0 0 1% 0;
+    }
+
+    .links {
+        width: 99%;
+        justify-content: space-between;
+        padding-right: 5%;
+    }
+
+    header .logo {
+        justify-content: center;
+        padding-bottom: 5%;
+    }
+
+    .code-snip {
+        display: none;
+        padding: 0 0;
+    }
+
+    .leftside {
+        width: 100%;
+        padding: 1% 0 2% 0;
+    }
+
+    .button {
+        width: 22%;
+        padding: 0.5% 0;
+    }
+
+    #top-content {
+        justify-content: space-around;
+    }
+
+    #top-content div {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.2;
+        width: 48%;
+    }
+
+    #bottom-content {
+        justify-content: space-around;
+
+    }
+
+    #bottom-content div {
+        line-height: 1.2;
+        width: 30%;
+    }
+
+    #contact {
+        padding-left: 2%;
+    }
 }
